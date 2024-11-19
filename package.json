@@ -1,0 +1,20 @@
+{
+  "name": "@rahem/jupiter",
+  "version": "0.0.0",
+  "main": "ju.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": {
+    "ju": "./ju.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "inquirer": "^12.1.0",
+    "ora": "^8.1.1",
+    "tar": "^7.4.3",
+    "tar-stream": "^3.1.7",
+    "zlib": "^1.0.5"
+  }
+}
