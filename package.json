@@ -1,6 +1,6 @@
 {
   "name": "@rahem/jupiter",
-  "version": "0.0.0",
+  "version": "0.0.0-dev.001",
   "main": "ju.js",
   "publishConfig": {
     "access": "public"
