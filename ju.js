@@ -70,7 +70,8 @@ program
     // add the .evn file
     const envPath = path.join(directory, '.env');
     if (!fs.existsSync(envPath)) {
-      const envContent = `# Add your environment variables here
+      const envContent = `#! never ever commit this file 💀
+# Add your environment variables here
 
 NEXt_PUBLIC_APP = ${title}
       `;
